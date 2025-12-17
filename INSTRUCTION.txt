@@ -43,3 +43,5 @@ git remote show origin (запрос к гиту)
 git push -u origin main (создать связь)
 
 git push (отправить на гитхаб)
+
+git pull (забрать с гитхаб)
