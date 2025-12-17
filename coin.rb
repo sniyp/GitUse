@@ -7,10 +7,15 @@ end
 
 puts 'How many dice?'
 number = gets.to_i
+sum_dice = 0
 puts
 
 number.times do
   # Вызываем метод вращения кубика
   show_rolling_die
-  puts rand(6) + 1
+  dice = rand(6) + 1
+  puts dice
+  sum_dice += dice
 end
+
+puts "Sum of dice: #{sum_dice}"
