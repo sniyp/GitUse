@@ -1,0 +1,29 @@
+git --version
+
+git config --global user.name "ник"
+
+git config --global user.email почта
+
+git init репозиторий
+
+git status
+
+.gitignore (
+    .idea
+)
+
+git add файл
+
+git add .
+
+git commit -m "комментарий"
+
+git log
+
+git commit -am "комментарий" (add & commit)
+
+git log -число (показывает "число" последних коммитов)
+
+git checkout айди_коммита (вернутся к другой версии)
+
+git checkout master (последняя версия)
