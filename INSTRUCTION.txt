@@ -14,7 +14,7 @@ git status
 
 git add файл
 
-git add .
+git add . (добавляет для коммита все файлы)
 
 git commit -m "комментарий"
 
