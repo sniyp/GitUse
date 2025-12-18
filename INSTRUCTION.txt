@@ -36,6 +36,10 @@ git remote show (показывает список удаленных репоз
 
 ssh-keygen (генерация SSH-ключей)
 
-git remote add origin git@github.com:ник на гите/название репо.git (добавь связь с удаленным репо и сделай его основным по отношению к текущему)
+git remote add origin (или любое другое имя) git@github.com:sniyp/GitUse.git (добавь связь с удаленным репо и сделай его основным по отношению к текущему)
 
 git remote show origin (запрос к гиту)
+
+git push -u origin main (создать связь)
+
+git push (отправить на гитхаб)
